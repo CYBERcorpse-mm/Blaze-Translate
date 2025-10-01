@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="cyan" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    <meta name="author" content="BlazeInferno64">
+    <meta name="description" content="100 % Free & Open source translate app" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaze Translate | 100% free & open source translate app</title>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO1Y2W8bRRxecanqExLlieMBwR/QNAkJbZImJW5pCpWQIkpbCJWyW1BRJcQDl42dxMemSVNAIUezG5IKHlpURBr1EG0fCJWKhAiUJtC+UNp47V3bOeyw4ziJ/UMzPhInjne8dh0e/Ek/2Tszmvm+md8xuwxTQAEFZI36M/AgJ6ByTkAfsyI6ywrqOCuiKU5U57FF/6Mx3IfHNJ5Uy8xmeIBZb7zTj55iRZVnBeTkRAQZ2gQnqI7Gk+qTeSd+SAw8zgqolxPUkA7iySaoIVZE3VxvYFNeyHN9aD8nosmsia8wVkA+VkD77h/xXniYE1Bfrolzq60Hr5Vr8hs5AV3IA3mIncZ5vGYudz5v5Lml2LhcfwYeyV5AftwGUp6EiLqzIt8ooAPrRZ6LWz96TRf5I4P+xzgRedddgIgmdaVYkud1LBhHjkV8mRF5XB31Fqn7IkBQQ1wvepp+90WVpyGpB1mIcFCRx5csck/5nwlgBeTEl0ZNAbuP+d7a/IkTcmG//D1HSDvOTacdt8UkQXmTGwy8F/Z1+tcUcbhPLdUUUMt7hzMh+dHpSdjaLK1qf7vfS8h7A4vwvHl1fzqrtCrwZs9sKhEfagqobJGdtAt1XvYTklfHERQZk/tu3A2RvuMXZnSdXolJgv2dgZVu9K2mgHKLK0i7yN4OGQLBMCHaczWQaLd8N0XafLNheKEps93fvEJEw/KTENAfmgJKTVI4k0WODPggHAaIRIC4065WN8zGRL3/zWSyrxud4JxaJH2u6UXYYqJwpxZl+Sl4NQXgRTLdKX54mpAKLURg3Bl1nYs30KpxR0/5kjLS0VM+qvnjgc2K6pymgCKjviM//fO/CWI4cLdbXavGXLsdJP13vAvk99rtINXchlYvvYASozOiR0Db+ZmEANm/CHXt7qT+l4/LEI4AzM1H4JUOGYLzEeJ2OI605sYpltqFyszuuUzJtw7PEDLY/ont7j3fAtTySyIGf5ol7UO/quQZ/2IMjMxqzo/rBHUQV7TIEi1xnDq7rvgT5G1D07CtWYKxWBzEC1iZRYIZNRrYB7o8pO31ToU8+1EYyi3abkudRnfYPT/QkN/aJMGVsei1Amehlu+Xqu12mwvsQ0vP5rPRtHpzIpQ0x1hMKO6nEcAJ6ANNATsdk400At772pfYwXcH02eTONG18Jc0T3cC/WqJpoAqMzxUapIWaUR8dmmGBGS6MW90e4AGB2OutbYA9S7117xqu+d6poG8lp0bTR+sAyPJwb2mAEG1M7So432leuvBcquyuki6xOlzz4q0GrfdbW4SQzi94thJNQZzOTygPkEtgLiSVRnPVgB2MYyRW+kL1sitaIE7cTH1xa/aLv/GZAqDXXm22JjZvWil4Uz01Y8BTf8+2OUh45ZnrriVmKTwqw75GUYPannvF7mKBV1mdMJO3tPOZIMqm/LnegmosSmjWZEnAsx3Nmxrdsv5Jl/R7JYbzLCByQX2tAc2VTTJnvyRl917T0w/mhPyCRFmaWMuMpOWz9fYPL/nbOdTweDwfp5tdkplxSYpbOB9x5h8oK7V81y1VbmZi2JXRHZdGa3TmyqzwUsd3uJqm3K95FO6u9NyK7W4FnbYlRE8B7PewBdAA68cqrHLlypa5IkyizuI3+zwCeF3bPyhoMziClZa5Xsv8p5zu9qUhvp6iq9sBRRQAKOF/wAutYZL1CjEswAAAABJRU5ErkJggg==" type="image/x-icon">
+    <script defer src="https://kit.fontawesome.com/f3220d5256.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="app">
+        <div class="head">
+            <p>
+                Blaze Translator
+            </p>
+        </div>
+        <div class="main">
+            <div class="translate">
+                <label for="text">
+                    <p>
+                        <i class="fa fa-globe"></i>
+                        Text to translate:
+                    </p>
+                </label>
+                <textarea name="Text to translate" id="text"
+                    placeholder="Enter the text to translate here..."></textarea>
+            </div>
+            <div class="translate">
+                <label for="from-lang">
+                    <p>
+                        <i class="fa fa-language"></i>
+                        From Language:
+                    </p>
+                </label>
+                <select name="from-lang" id="from-lang">
+                </select>
+            </div>
+            <div class="translate">
+                <label for="to-lang">
+                    <p>
+                        <i class="fa fa-language"></i>
+                        To Language:
+                    </p>
+                </label>
+                <select name="to-lang" id="to-lang">
+                </select>
+            </div>
+            <div class="translate">
+                <label for="output">
+                    <p>
+                        <i class="fa fa-globe"></i>
+                        Translation output:
+                    </p>
+                </label>
+                <textarea name="Translated text" id="output" placeholder="Translated text goes here..."
+                    readonly></textarea>
+            </div>
+            <div class="btns">
+                <button type="submit" class="done">
+                    <i class="fa fa-language"></i> Translate Text
+                </button>
+                <button type="submit" class="copy none">
+                    <i class="fa fa-clone"></i> Copy Text
+                </button>
+            </div>
+        </div>
+    </div>
+    <script type="module" defer src="./public/js/script.js"></script>
+</body>
+
+</html>

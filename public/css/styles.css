@@ -1,0 +1,197 @@
+/*
+    Copyright (c) BlazeInferno64 --> https://github.com/blazeInferno64
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --ff: "Poppins", sans-serif;
+    --gradient: linear-gradient(90deg, rgb(5, 215, 138), 74%, rgb(0, 213, 255));
+    --second-gradient: linear-gradient(90deg, #ff1b6b, 74%, #45caff);
+    --third-gradient: linear-gradient(135deg, #6a5acd, #00bfff);
+    /* Purple bluish gradient */
+    --fourth-gradient: linear-gradient(135deg, #00ff7f, #00bfff);
+    /* Green bluish gradient */
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: var(--ff);
+    background: var(--gradient);
+}
+
+.app {
+    background: rgba(30, 30, 30);
+    user-select: none;
+    color: #fff;
+    width: 450px;
+    height: fit-content;
+    border-radius: .3rem;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    transition: all .1s ease-in-out;
+    /*animation: pop 1s ease-in-out;*/
+}
+
+.app .head {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url("../img/bg2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: .5rem 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app .head p {
+    font-size: 1.3rem;
+    background: var(--gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.app .main {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: .3rem .5rem;
+    margin-top: .5rem;
+}
+
+.translate {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.translate label {
+    width: 100%;
+    font-size: 1.13rem;
+    background: #2a2d2e;
+    padding: .3rem .5rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+.translate p {
+    font-size: 1.3rem;
+    background: var(--gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.translate textarea {
+    font-family: var(--ff);
+    resize: none;
+    padding: .3rem .5rem;
+    width: 100%;
+    font-size: 1.13rem;
+    height: 140px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: .3rem .5rem;
+    background: #4a4e50;
+    color: #fff;
+}
+
+.translate select {
+    font-family: var(--ff);
+    resize: none;
+    padding: .3rem .5rem;
+    width: 100%;
+    font-size: 1.13rem;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: .3rem .5rem;
+    background: #4a4e50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.app .btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.app .btns button {
+    padding: .5rem 1rem;
+    border: none;
+    font-size: 1.13rem;
+    width: 50%;
+    cursor: pointer;
+    border-radius: .3rem;
+    margin-bottom: .1rem;
+    transition: all .1s ease-in-out;
+}
+.done {
+    background: #17de6d;
+}
+.copy {
+    background: rgb(97, 97, 228);
+}
+.done:hover {
+    background: hsl(146, 81%, 38%);
+}
+.copy:hover {
+    background: hsl(240, 71%, 54%);
+}
+.done:active, .copy:active {
+    scale: .97;
+}
+.none {
+    pointer-events: none;
+    opacity: .85;
+    cursor: not-allowed ;
+}
+
+@media (max-width: 450px) {
+    .app {
+        width: 95%;
+    }
+
+}

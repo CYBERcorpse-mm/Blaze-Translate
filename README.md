@@ -3,10 +3,10 @@ A free &amp; open source translate web app
 |--------------|
 # View it here-
 
-<a href="https://blaze-audio-player.vercel.app/">
+<a href="https://blazeinferno64.github.io/Blaze-Translate/">
 
 ```
-https://blaze-audio-player.vercel.app/
+https://blazeinferno64.github.io/Blaze-Translate/
 ```
 </a>
 

